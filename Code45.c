@@ -4,43 +4,43 @@ int main() {
 	printf("Input the amount: ");
 	scanf("%d",&amt);
 	
-	total = (int)amt/100;
+	total = amt/100;
 	
 	printf("you can use: \n\n");
 	printf("\n%d Note(s) of 100.00\n", total);
 	
     printf("OR\n");
-	total = (int)amt/50;
+	total = amt/50;
 	
 	printf("%d Note(s) of 50.00\n", total);
 	
     printf("OR\n");
 
-	total = (int)amt/20;
+	total = amt/20;
 	
 	printf("%d Note(s) of 20.00\n", total);
 	
     printf("OR\n");
 	
-	total = (int)amt/10;
+	total = amt/10;
 	
 	printf("%d Note(s) of 10.00\n", total);
 	
     printf("OR\n");
 	
-	total = (int)amt/5;
+	total = amt/5;
 	
 	printf("%d Note(s) of 5.00\n", total);
 	
     printf("OR\n");
 	
-	total = (int)amt/2;
+	total = amt/2;
 	
 	printf("%d Note(s) of 2.00\n", total);
 	
     printf("OR\n");
 	
-	total = (int)amt/1;
+	total = amt/1;
 	
 	printf("%d Note(s) of 1.00\n", total);
 	
