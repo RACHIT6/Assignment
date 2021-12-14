@@ -10,7 +10,6 @@ int main(int argc, char const *argv[])
 
     while (n != 0)
     {
-        rem = n%10;
         count++;
         n /= 10;
     }
